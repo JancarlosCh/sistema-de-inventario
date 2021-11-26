@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  height: 30px;
+  width: 100px;
+  border-radius: 10%;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.btn-new,
+.btn-cancel {
+  padding: 8px 30px;
+}
+
+.btn-update {
+  margin-right: 5px;
+  padding: 3px 10px;
+}
+
+.btn-delete {
+  margin-left: 5px;
+  padding: 3px;
+}
+
+.btn-new,
+.btn-cancel,
+.btn-update,
+.btn-delete {
+  border-radius: 10%;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+}
+
+.btn-secundary {
+  background-color: #6c757d;
+}
+
+.btn-secundary:hover {
+  background-color: #5a6268;
+}
+
+.btn-success {
+  background-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+}
+
+.btn-warning:hover {
+  background-color: #e0a800;
+}
+
+header,
+main {
+  margin: 25px;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+table tr:nth-child(even) {
+  background-color: #eee;
+}
+
+table tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+caption {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+thead {
+  height: 30px;
+}
+
+th {
+  font-weight: 700;
+  background-color: #eee;
+  border-bottom: 1px solid #c82333;
+}
+
+td {
+  font-weight: 500;
+  text-align: center;
+  padding: 0.4em;
+}
+
+.description {
+  text-align: justify;
+}
+
+.main_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-product {
+  min-width: 500px;
+  display: grid;
+  grid-template-columns: 2fr;
+  background-color: cadetblue;
+}
+
+#name,
+#price,
+#quantity {
+  height: 25px;
+}
+
+.form-item-textarea {
+  height: 200px;
+  border: 1px solid;
+}
+
+.form-item-text,
+.form-item-textarea {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-item-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-item-buttons .btn {
+  margin: 10px;
+}
+
+textarea:active {
+  initial-value: null;  
+}
